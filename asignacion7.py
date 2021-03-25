@@ -6,7 +6,7 @@ import json
 
 freq_get = 300
 tick = time.time() - freq_get
-fdjson = "dispositivos.json"
+fdjson = "tmp/dispositivos.json"
 extraer = ["hostname","reachabilityStatus"]
 list_disp_status = []
 
