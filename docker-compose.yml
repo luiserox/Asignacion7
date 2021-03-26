@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  disp_json:
+    image: disp_json
+    volumes:
+     - .:/tmp
